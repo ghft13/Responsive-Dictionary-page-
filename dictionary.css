@@ -1,0 +1,208 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: crimson;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding: 1vmax 2vmax;
+  width: 30%;
+  height: 70vh;
+}
+
+.dictionary-head h1 {
+  font-size: 2.2vmax;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 2vmax;
+}
+
+.word-day h2 {
+  font-size: 2vmax;
+  margin-bottom: 2vmax;
+}
+
+.search i {
+  color: white;
+}
+
+.search input {
+  height: 5vh;
+  font-size: 1.2vmax;
+  outline: none;
+  width: 20vw;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.meaning {
+  margin-top: 3vmax;
+}
+
+.meaning h2 {
+  font-size: 1.2vmax;
+  margin: 3vmax 0px;
+}
+
+.word-mean {
+  flex-wrap: wrap;
+}
+
+.antonyms {
+  flex-wrap: wrap;
+}
+
+.synonym {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1350px) and (min-width: 991px) {
+  .dictionary-head h1 {
+    font-size: 5vmin;
+    margin-bottom: 5vmin;
+  }
+
+  .word-day h2 {
+    font-size: 4vmin;
+    margin-bottom: 4vmin;
+  }
+
+  .search input {
+    font-size: 3vmin;
+    width: 22vw;
+  }
+
+  .meaning {
+    margin-top: 5vmin;
+  }
+
+  .meaning h2 {
+    font-size: 3.5vmin;
+    margin: 8vmin 0px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .dictionary-head h1 {
+    font-size: 5vmin;
+    margin-bottom: 5vmin;
+  }
+
+  .word-day h2 {
+    font-size: 4vmin;
+    margin-bottom: 4vmin;
+  }
+
+  .search input {
+    font-size: 3vmin;
+    width: 22vw;
+  }
+
+  .meaning {
+    margin-top: 5vmin;
+  }
+
+  .meaning h2 {
+    font-size: 3.5vmin;
+    margin: 8vmin 0px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 570px) {
+  .dictionary-head h1 {
+    font-size: 5vmin;
+    margin-bottom: 5vmin;
+  }
+
+  .word-day h2 {
+    font-size: 4.3vmin;
+    margin-bottom: 3vmin;
+  }
+
+  .search input {
+    font-size: 3vmin;
+    width: 22vw;
+  }
+
+  .meaning {
+    margin-top: 5vmin;
+  }
+
+  .meaning h2 {
+    font-size: 3.8vmin;
+    margin: 7vmin 0px;
+  }
+  header {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 4vmax 4vmax;
+    width: 50%;
+    height: 65vh;
+  }
+
+  .search input {
+    width: 35vw;
+  }
+}
+
+@media (max-width: 441px) {
+  .search i {
+    display: none;
+  }
+}
+
+
+@media (max-width:570px) {
+  .dictionary-head h1 {
+    font-size: 3vmax;
+    margin-bottom: 5vmax;
+    text-align: center;
+  }
+
+  .word-day h2 {
+    font-size: 2.8vmax;
+    margin-bottom: 3vmax;
+  }
+
+  .search input {
+    font-size: 2.7vmax;
+    width: 22vw;
+  }
+
+  .meaning {
+    margin-top: 1vmax;
+  }
+
+  .meaning h2 {
+    font-size: 2.5vmax;
+    margin: 7vmax 0px;
+  }
+  header {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 4vmax 4vmax;
+    width: 50%;
+    height: 65vh;
+  }
+
+  .search input {
+    width: 35vw;
+  }
+
+}
